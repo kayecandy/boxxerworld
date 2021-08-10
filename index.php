@@ -1,5 +1,7 @@
 <?php 
 
+	include 'config.php';
+
 	$attributes = array(
 		'style' => isset($_GET['style']) ? $_GET['style'] : CNDCE_DEFAULT_MODEL,
 		'theme'	=> isset($_GET['theme']) ? $_GET['theme'] : CNDCE_DEFAULT_THEME
@@ -32,10 +34,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Candice Experiments - Boxing Gloves</title>
-	<link rel="icon" href="http://cndce.me/favicon.png">
+	<title>Boxxerworld Configurator</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
-	
+	<link rel="icon" type="image/x-icon" href="https://cdn2.boxxerworld.com/favicon.ico">
 
 	<!-- Scrollbar -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.scrollbar/0.2.11/jquery.scrollbar.min.css" />
