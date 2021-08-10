@@ -145,7 +145,7 @@
 	<script type="text/javascript" src="./cndce-boxingglove.js"></script>
 
 
-	<script type="text/javascript" src="./assets/models/<?php echo $_GET['style'] ?>/init-model.js"></script>
+	<script type="text/javascript" src="./assets/models/<?php echo $attributes['style'] ?>/init-model.js"></script>
 	
 
 </body>
