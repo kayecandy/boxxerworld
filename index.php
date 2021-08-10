@@ -1,8 +1,8 @@
 <?php 
 
 	$attributes = array(
-		'style' => $_GET['style'],
-		'theme'	=> $_GET['theme']
+		'style' => isset($_GET['style']) ? $_GET['style'] : CNDCE_DEFAULT_MODEL,
+		'theme'	=> isset($_GET['theme']) ? $_GET['theme'] : CNDCE_DEFAULT_THEME
 	);
 
 	function plugins_url($url, $file){
@@ -143,16 +143,9 @@
 	</script>
 	<script type="text/javascript" src="./cndce-boxingglove.js"></script>
 
-	<?php if(isset($_GET['style'])): ?>
-		<script type="text/javascript" src="./assets/models/<?php echo $_GET['style'] ?>/init-model.js"></script>
 
-
-	<?php else: ?>
-		<script type="text/javascript" src="./assets/models/glove/init-model.js"></script>
-
-	<?php endif; ?>
+	<script type="text/javascript" src="./assets/models/<?php echo $_GET['style'] ?>/init-model.js"></script>
 	
-
 
 </body>
 </html>

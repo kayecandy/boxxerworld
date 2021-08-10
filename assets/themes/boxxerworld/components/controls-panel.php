@@ -3,7 +3,7 @@
         <div class="cndce-controls-headers nav" role="tablist">
             <?php foreach(CONFIG['controls'] as $control): ?>
                 <a 
-                    class="nav-link <?= $control['active'] ? 'active' : '' ?>" 
+                    class="nav-link <?= isset($control['active']) && $control['active'] ? 'active' : '' ?>" 
                     href="#<?= $control['id'] ?>"
                     role="tab"
                     data-bs-toggle="tab"
