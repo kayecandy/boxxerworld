@@ -7,7 +7,7 @@ jQuery(function($){
 
         cameraFrustumMin: 0.5,
 
-		cameraPosition: {x: -9.212505533929168, y: 13.235142739270826, z: 30.161358386608363},
+		cameraPosition: {x: -3.2507289097605647, y: 2.113407330749977, z: 7.150458284403176},
 
 
 		models: [
@@ -26,7 +26,7 @@ jQuery(function($){
 				// 'map': 'map-garter-2.png',
 				// 'normalMap': 'normal-garter-2.png',
 				'snapshot': 'short.png',
-				'cameraPosition': {x: -0.050320338851984975, y: 0.6097403655618208, z: 1.4520282426692555},
+				'cameraPosition': {x: -0.23444198954370885, y: 2.840774678165404, z: 6.764986044437326},
 				'addToEventGroup': true
 			},
             {
@@ -44,7 +44,7 @@ jQuery(function($){
 				// 'map': 'map-garter-2.png',
 				// 'normalMap': 'normal-garter-2.png',
 				'snapshot': 'short.png',
-				'cameraPosition': {x: 0.11521005351373222, y: 0.5584516113621157, z: -1.468863475188625},
+				'cameraPosition': {x: 1.2785941132385734, y: 2.6018208505458116, z: -6.744310591547192},
 				'addToEventGroup': true
 			},
             {
@@ -62,7 +62,7 @@ jQuery(function($){
 				// 'map': 'map-garter-2.png',
 				// 'normalMap': 'normal-garter-2.png',
 				'snapshot': 'short.png',
-				'cameraPosition': {x: 0.020036876839888362, y: 0.20393668983205057, z: -1.562277125709026},
+				'cameraPosition': {x: 2.528267771245154, y: 0.9378160894480062, z: -7.6740566668917705},
 				'addToEventGroup': true
 			},
             {
@@ -80,7 +80,7 @@ jQuery(function($){
 				// 'map': 'map-garter-2.png',
 				// 'normalMap': 'normal-garter-2.png',
 				'snapshot': 'short.png',
-				'cameraPosition': {x: -0.14337140378029392, y: 0.6511864206882947, z: 1.4276212219969378},
+				'cameraPosition': {x: -0.26385394772970683, y: 2.737276033621538, z: 4.400257324404013},
 				'addToEventGroup': true
 			},
             {
@@ -98,7 +98,7 @@ jQuery(function($){
 				// 'map': 'map-garter-2.png',
 				// 'normalMap': 'normal-garter-2.png',
 				'snapshot': 'short.png',
-				'cameraPosition': {x: -0.5714877677800174, y: 0.5467250490172341, z: 1.0107266348147317},
+				'cameraPosition': {x: 1.0810446928810296, y: 1.8410473625387214, z: 3.5884689938071883},
 				'addToEventGroup': true
 			},
 
@@ -117,7 +117,7 @@ jQuery(function($){
 				// 'map': 'map-garter-2.png',
 				// 'normalMap': 'normal-garter-2.png',
 				'snapshot': 'short.png',
-				'cameraPosition': {x: -0.17385998227915547, y: -0.144173843441934, z: 1.731211341036707},
+				'cameraPosition': {x: -2.796247616321658, y: -0.4649124877850622, z: 4.260439734560896},
 				'addToEventGroup': true
 			},
 
@@ -136,7 +136,7 @@ jQuery(function($){
 				// 'map': 'map-garter-2.png',
 				// 'normalMap': 'normal-garter-2.png',
 				'snapshot': 'short.png',
-				'cameraPosition':  {x: 0.33468746782890063, y: 0.5948555687969319, z: 1.606934114721134},
+				'cameraPosition':  {x: 0.3799695157038623, y: -0.42334142285297194, z: 5.094821864537286},
 				'addToEventGroup': true
 			},
 		]
