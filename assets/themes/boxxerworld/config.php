@@ -1,7 +1,8 @@
 <?php 
 
 
-
+const BOXXERWORLD_DIR = __DIR__;
+const BOXXERWORLD_URL = 'assets/themes/boxxerworld'; 
 
 const CONFIG = [
     'controls'  => [
@@ -62,6 +63,43 @@ const CONFIG = [
             'id'        => 'list',
             'title'     => 'List',
             'icon'      => 'assets/icons/top-list.svg'
+        ]
+    ],
+    'leg-cuts'          => [
+        'title'         => 'Choose Leg Cut',
+        'choices'       => [
+            [
+                'id'    => 'side-slit',
+                'img'   => 'assets/icons/leg_cut-side_slit.svg',
+                'title' => 'Side Slit'
+            ],
+            [
+                'id'    => 'curve-leg',
+                'img'   => 'assets/icons/leg_cut-curve_leg.svg',
+                'title' => 'Curve Leg'
+
+            ],
+            [
+                'id'    => 'wave-leg',
+                'img'   => 'assets/icons/leg_cut-wave_leg.svg',
+                'title' => 'Wave Leg'
+
+            ]
+        ] 
+    ],
+    'sizes'             => [
+        'title'         => 'Choose your size',
+        'choices'       => [
+            [
+                'id'    => 'standard',
+                'title' => 'Standard',
+                'img'   => 'assets/icons/size-standard.svg'
+            ],
+            [
+                'id'    => 'retro',
+                'title' => 'Retro',
+                'img'   => 'assets/icons/size-retro.svg'
+            ]
         ]
     ]
 ];

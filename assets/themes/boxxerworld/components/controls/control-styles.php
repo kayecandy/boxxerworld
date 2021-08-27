@@ -1,4 +1,45 @@
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lorem quam, accumsan vitae nibh elementum, accumsan efficitur enim. Proin pharetra, leo quis laoreet pharetra, turpis ipsum pretium leo, quis egestas lacus lectus eu elit. Vestibulum at mauris aliquet, lacinia velit id, malesuada enim. Donec condimentum euismod metus in bibendum. Praesent quis fringilla odio. Phasellus eget lacus ac lacus viverra malesuada. Vestibulum vitae velit mattis, elementum eros nec, finibus urna. Nunc et condimentum nulla. Duis sed eros sed est accumsan pretium. Aenean sodales pharetra odio, non imperdiet quam tempor vel. Quisque faucibus augue vestibulum sem fermentum euismod.
+<div class="container pt-2">
+    <div class="row">
+        <div class="col pe-0">
+            <p class="cndce-styles-title text-uppercase"><?= CONFIG['leg-cuts']['title'] ?></p>
 
-Aliquam finibus, tortor a rhoncus facilisis, massa nisl porttitor odio, vel ornare sapien dolor id dui. Integer non ultrices elit. Aenean porttitor vestibulum ante a lacinia. Nam faucibus bibendum libero id mollis. Proin auctor sem sapien, in molestie orci hendrerit non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed facilisis urna id vestibulum eleifend. Quisque quis hendrerit mi.
+            <hr class="mb-4">
 
+
+            <div class="row">
+                <?php foreach(CONFIG['leg-cuts']['choices'] as $legCuts): ?>
+                    <div class="col-auto col-legcut col-legcut-<?= $legCuts['id'] ?> text-center">
+                        <div class="cndce-legcut">
+                            <?php include BOXXERWORLD_DIR . '/' . $legCuts['img'] ?>
+                            <div class="cndce-legcut-title mt-2">
+                                <?= $legCuts['title'] ?>
+                            </div>
+
+                        </div>
+                    </div>
+                <?php endforeach; ?>
+            </div>
+
+        </div>
+        <div class="col ps-0">
+            <p class="cndce-styles-title text-uppercase"><?= CONFIG['sizes']['title'] ?></p>
+
+            <hr class="mb-4">
+
+            <div class="row">
+                <?php foreach(CONFIG['sizes']['choices'] as $sizes): ?>
+                    <div class="col-auto col-sizes col-sizes-<?= $sizes['id'] ?> text-center">
+                        <div class="cndce-size">
+                            <?php include BOXXERWORLD_DIR . '/' . $sizes['img'] ?>
+                            <div class="cndce-size-title mt-2">
+                                <?= $sizes['title'] ?>
+                            </div>
+
+                        </div>
+                    </div>
+                <?php endforeach; ?>
+            </div>
+
+        </div>
+    </div>
+</div>

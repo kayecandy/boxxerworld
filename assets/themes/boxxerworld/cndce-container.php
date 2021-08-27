@@ -1,7 +1,10 @@
 <?php
-    include('config.php');
+    include( __DIR__ . '/config.php');
+    
 
 ?>
+
+
 
 
 <div id="cndce-gloves-container" class="cndce-container" data-active-editable="color">

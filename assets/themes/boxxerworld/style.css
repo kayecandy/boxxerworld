@@ -195,3 +195,36 @@ body{
     overflow-y: scroll;
     background: white;
 }
+
+/* CONTROLS STYLES */
+.cndce-styles-title{
+    letter-spacing: 2px;
+    font-size: 88%;
+    font-weight: 300;
+}
+
+.cndce-legcut,
+.cndce-size{
+    cursor: pointer;
+}
+
+.cndce-legcut-title,
+.cndce-size-title{
+    font-size: 68%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: #363636;
+
+    transition: color 0.3s ease-in-out;
+}
+
+.cndce-legcut:hover .cndce-legcut-title,
+.cndce-size:hover .cndce-size-title{
+    color: #63b20b;
+}
+
+.cndce-legcut hr,
+.cndce-sizes hr{
+    color: #828282;
+}
