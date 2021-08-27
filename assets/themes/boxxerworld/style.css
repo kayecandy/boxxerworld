@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;700&display=swap');
 
 body{
     overflow-y: scroll;
@@ -6,6 +6,7 @@ body{
 
 .cndce-container{
     font-family: 'Poppins', sans-serif;
+    font-weight: 200;
     height: auto;
     min-height: 100%;
     background: none;
@@ -154,6 +155,8 @@ body{
     margin: 1rem 0;
     max-height: calc(100vh - 2rem);
     overflow: hidden;
+
+    display: none;
 }
 
 .cndce-controls-summary .accordion{
@@ -176,6 +179,7 @@ body{
     text-align: center;
     border-radius: 0 !important;
     text-transform: uppercase;
+    font-size: 45%;
 }
 
 .cndce-controls-summary .accordion-button .accordion-header-text{
@@ -195,6 +199,13 @@ body{
     overflow-y: scroll;
     background: white;
 }
+
+.cndce-controls-summary .cndce-controls-editables{
+	position: relative;
+}
+
+
+
 
 /* CONTROLS STYLES */
 .cndce-styles-title{

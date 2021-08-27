@@ -21,6 +21,12 @@
 		return './assets/themes/' . $attributes['theme'] . '/style.css';
 	}
 
+	function theme_script_url(){
+		global $attributes;
+
+		return './assets/themes/' . $attributes['theme'] . '/script.js';
+	}
+
 	function theme_container(){
 		global $attributes;
 
@@ -143,6 +149,12 @@
 		var cndceBoxingGloveURL = '';
 	</script>
 	<script type="text/javascript" src="./cndce-boxingglove.js"></script>
+
+
+	<!-- Theme -->
+	<?php if(file_exists(theme_script_url())): ?>
+		<script src="<?= theme_script_url() ?>"></script>
+	<?php endif; ?>
 
 
 	<script type="text/javascript" src="./assets/models/<?php echo $attributes['style'] ?>/init-model.js"></script>

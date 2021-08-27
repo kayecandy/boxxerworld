@@ -500,7 +500,7 @@ jQuery.fn.extend({
 		var $gloveParts = $('.cndce-glove-parts');
 		var $glovePartTemplate = $('.cndce-active-glove-part.cndce-template', $gloveParts);
 
-		var $controlsEditables  = $('#cndce-controls-editables');
+		var $controlsEditables  = $('.cndce-controls-editables');
 
 		var $colorEditables = $('.cndce-controls-editables-type[data-editable="color"]', $controlsEditables);
 		var $colorEditableTemplate = $('.cndce-color-editable.cndce-template', $colorEditables);
